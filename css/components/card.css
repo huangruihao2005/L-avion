@@ -1,0 +1,34 @@
+.card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 30px rgba(0,0,0.2);
+    border-radius: 6px;
+}
+
+.card img {
+    width: 100px; /* 将图片大小调整为合适大小 */
+    border-radius: 6px;
+}
+
+.card h3 {
+    flex-grow: 1;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 25px; /* 添加圆角 */
+    display: inline-block; /* 使按钮成为行内块元素 */
+    transition: all 0.3s ease; /* 添加过渡效果 */
+}
+
+.btn-blue:hover {
+    background-color: #4b4fe1; /* 鼠标悬停时的背景色 */
+    color: white;
+    border-radius: 25px; /* 悬停时保持圆角 */
+}

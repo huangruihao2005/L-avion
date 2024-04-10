@@ -1,0 +1,23 @@
+.banner {
+    background-image: url(../../images/background.jpeg);
+    color: white;
+    padding: 150px 0px;
+    background-size: cover; /* 背景图尺寸调整为 cover */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner h1 {
+    font-size: 50px;
+    text-align: center; /* 文字居中 */
+}
+
+.banner h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-bottom: 40px;
+    text-align: center; /* 文字居中 */
+}
+
+}
